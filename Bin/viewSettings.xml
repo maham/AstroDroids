@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<viewsettings version="0.1">
+	<log filename="hgelog.log" />
+	<screen windowed="1" screenwidth="1024" screenheight="768" screenbpp="32" />
+	<title name="Game" />
+</viewsettings>

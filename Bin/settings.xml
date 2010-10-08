@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamesettings version="0.1">
+	<test></test>
+	<log filename="hgelog.log" />
+	<geometry windowed="1" screenwidth="1024" screenheight="768" screenbpp="32" />
+	<title name="Game" />
+</gamesettings>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<World version="0.1" Width="1024" Height="768">
+	<Grid XDivisions="50" YDivisions="50" />
+	<Actor Type="Ship" Name="Ship1">
+		<Position x="200" y="200" />
+		<Structure Radius="30" Mass="1000" />
+		<Thrusters Rear="1000000" Forward="500000" Clockwise="2500" CClockwise="2500" />
+	</Actor>
+	<Actor Type="Ship" Name="Ship2">
+		<Position x="500" y="500" />
+		<Structure Radius="60" Mass="10000" />
+		<Thrusters Rear="100000" Forward="50000" Clockwise="2000" CClockwise="2000" />
+	</Actor>
+</World>
