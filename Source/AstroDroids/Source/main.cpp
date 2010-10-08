@@ -11,10 +11,10 @@ int WINAPI WinMain( HINSTANCE, HINSTANCE, LPSTR, int ) {
 	
 	MSG message;
 
+	// Message pump
+	//
 	for( ;; ) {
-		// check for messages
 		if ( PeekMessage( &message, NULL, 0, 0, PM_REMOVE ) )  {
-			// handle or dispatch messages
 			if ( message.message == WM_QUIT ) {
 				break;
 			}
